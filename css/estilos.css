@@ -1,7 +1,37 @@
+body{
+  background-image: url("../img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
 .barra-superior{
     max-height: 50px;
   }
 
 .imagen-banner{
-    width: 15rem;
+    width: 8rem;
   }
+
+.img-principal{
+  margin-top: 2vh;
+  opacity: 0.95;
+  border: 1px solid black;
+}
+
+p{
+  text-align: justify
+}
+
+.comentario{
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.contenedor-blogger{
+  margin-bottom: 10px;
+}
+
+.redes{
+  opacity: 0.9
+}
