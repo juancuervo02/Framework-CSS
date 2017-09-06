@@ -13,12 +13,6 @@ body{
     width: 8rem;
   }
 
-.img-principal{
-  margin-top: 2vh;
-  opacity: 0.95;
-  border: 1px solid black;
-}
-
 p{
   text-align: justify
 }
