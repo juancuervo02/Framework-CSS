@@ -5,21 +5,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Blogger | Gastronomia</title>
   <link rel="stylesheet" href="foundation/css/foundation.min.css">
   <link rel="stylesheet" href="foundation/css/app.css">
+  <link rel="stylesheet" href="foundation/foundation-icons/foundation-icons.css" media="screen">
 </head>
 
 <body>
   <!--Título y slogan-->
   <div class="row">
-    <div class="columns large-4 color-fondo">
+    <div class="columns large-4 medium-4 color-fondo">
       <div class="row">
-        <div class="column large-12">
+        <div class="column large-12 medium-12 small-12">
           <h2>Blogger</h2>
         </div>
-        <div class="column large-12">
-          <h5>Slogan</h5>
+        <div class="column large-12 medium-12 small-12">
+          <h5>Barriga llena, Blog contento</h5>
         </div>
       </div>
     </div>
@@ -27,18 +28,18 @@
 
   <div class="row">
     <!--Parte izquierda-->
-    <div class="column large-4 color-fondo">
+    <div class="column large-4 medium-4 small-12 color-fondo contenedor-entradas">
       <div class="row">
         <!--Buscador-->
-        <div class="column large-12">
+        <div class="column large-12 medium-12 small-12">
           <hr>
-          <input type="search" name="buscador" id="buscador" class="step fi-magnifying-glass">
-          <a>
-              <i class="fi-magnifying-glass"></i>
-            </a>
+          <a href="viajes.html">Ir a blog de Viajes</a>
+          <input type="search" name="buscador" id="buscador">
+            <i class="fi-magnifying-glass"></i>
+           
         </div>
         <!--navegacion-->
-        <div class="column large-12">
+        <div class="column large-12 medium-12 small-12">
           <ul class="menu vertical">
             <li><a href="#">Inicio</a></li>
             <li><a href="#">Mi plato perfecto</a></li>
@@ -47,7 +48,7 @@
           </ul>
         </div>
         <!--favoritos-->
-        <div class="column large-12">
+        <div class="column large-12 medium-12 small-12">
           <div class="row contenedor-img">
             <div class="column large-4">
               <img src="img/gastronomia/comida-1.jpg" alt="">
@@ -72,7 +73,7 @@
           </div>
         </div>
         <!--Historial-->
-        <div class="column large-12">
+        <div class="column large-12 medium-12 small-12">
           <ul class="menu vertical">
             <li><a href="#">Como hacer arroz blanco perfecto</a></li>
             <li><a href="#">Como hacer pan casero</a></li>
@@ -88,17 +89,17 @@
     <!--Parte derecha-->
     <div class="column color-fondo">
       <div class="row">
-        <div class="column large-11 color-fondo">
+        <div class="column large-11 medium-11 small-12 color-fondo">
           <hr>
           <h1>Bandeja Paisa</h1>
-          <h5>05 de septiembre de 2017 <i></i></h5>
+          <h5 class="step fi-calendar"> 05 de septiembre de 2017 <i></i></h5>
         </div>
         <!--Imagen primera entrada-->
-        <div class="column large-12">
+        <div class="column large-12 medium-12 small-12">
           <img src="img/gastronomia/bandeja-paisa.jpg" alt="">
         </div>
-        <!--Campo para comentarios-->
-        <div class="column large-12">
+        <!--Contenido primera entrada-->
+        <div class="column large-12 medium-12 small-12">
           <p>La bandeja paisa es el plato más representativo de la región, típico de la cocina antioqueña, correspondiente a
             los actuales territorios de Antioquia, el Viejo Caldas o Eje Cafetero (Caldas, Quindío y Risaralda), parte del
             norte del Valle del Cauca y el norte del Tolima, Colombia.</p>
@@ -111,23 +112,82 @@
             XIX conformaba la única alimentación que acompañaba al arriero de la región antioqueña y del antiguo Viejo Caldas.</p>
 
         </div>
-        <div class="column large-11 color-fondo">
+        <!--Comentario primera entrada-->
+        <div class="column large-12 medium-12 small-12">
+          <label for="comentario">Dejanos un comentario</label>
+          <textarea name="comentario" id="comentario" rows="2" class="textarea"></textarea>
+          <button class="button success float-right"><i class="step fi-arrow-right"></i> Enviar</button>
+        </div>
+        <div class="column large-12 medium-12 small-12">          
+          <hr>
+          <h5>Comentarios de nuestros visitantes</h5>
+          <div class="comentarios align-middle">
+            <img src="img/hombre.jpg" width="8%" alt="">
+            <p>Que buen blog!!</p>
+          </div>
+          <hr>
+          <div class="comentarios align-middle">
+              <img src="img/mujer.jpg" width="8%" alt="">
+              <p>Eres un genio.... ya hasta me dio hambre</p>
+            </div>
+        </div>
+        <!--Segunda entrada-->
+        <div class="column large-11 medium-11 small-12 color-fondo">
           <hr>
           <h1>Ajiaco</h1>
           <h5>06 de septiembre de 2017 <i></i></h5>
         </div>
-        <!--Imagen primera entrada-->
-        <div class="column large-12">
+        <!--Imagen segunda entrada-->
+        <div class="column large-12 medium-12 small-12">
           <img src="img/gastronomia/ajiaco.jpg" alt="">
         </div>
-        <!--Campo para comentarios-->
-        <div class="column large-12">
+        <!--Contenido segunda entrada-->
+        <div class="column large-12 medium-12 small-12">
           <p>Se dice que el ajiaco fue creado por los Chibchas quienes se alimentaban con una base de mazamorra de maíz y papas
             con ají. Cuando los españoles llegaron a territorio colombiano agregaron el pollo y la crema de leche tal y como
             se prepara hoy. </p>
           <p>Con el paso de los años, se ha modificado sin perder su esencia como plato típico colombiano.Con el pollo colombiano
             como uno de sus principales ingredientes, el ajiaco necesita para su preparación tres clases de papa, pechuga
             de pollo o pierna pernil, mazorca, cebolla larga, ajo, guascas, crema de leche, alcaparras, aguacate y sal.</p>
+        </div>
+        <!--Comentarios segunda entrada-->
+        <div class="column large-12 medium-12 small-12">
+          <label for="comentario">Dejanos un comentario</label>
+          <textarea name="comentario" id="comentario" rows="2" class="textarea"></textarea>
+          <button class="button success float-right"><i class="step fi-arrow-right"></i> Enviar</button>
+        </div>
+        <div class="column large-12 medium-12 small-12">
+          <hr>
+          <h5>Comentarios de nuestros visitantes</h5>
+          <div class="comentarios align-middle">
+            <img src="img/hombre.jpg" width="8%" alt="">
+            <p>Gran contenido</p>
+          </div>
+          <hr>
+          <div class="comentarios align-middle">
+            <img src="img/hombre.jpg" width="8%" alt="">
+            <p>ooooohhh!!! que buen diseño de este blog</p>
+          </div>
+          <hr>
+          <div class="comentarios align-middle">
+            <img src="img/mujer.jpg" width="8%" alt="">
+            <p>Se ve todo muy delicioso</p>
+          </div>
+          <hr>
+          <div class="comentarios align-middle">
+            <img src="img/hombre.jpg" width="8%" alt="">
+            <p>Cuando haces una entrada de comida Mexicana</p>
+          </div>
+          <hr>
+          <div class="comentarios align-middle">
+            <img src="img/mujer.jpg" width="8%" alt="">
+            <p>Lo unico malo es que no se pueden comer las imagenes jajajaja</p>
+          </div>
+          <hr>
+          <div class="comentarios align-middle">
+            <img src="img/mujer.jpg" width="8%" alt="">
+            <p>Delicioso!!!!</p>
+          </div>
         </div>
       </div>
     </div>

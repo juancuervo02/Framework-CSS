@@ -1,15 +1,23 @@
 body{
    background: url("../../img/gastronomia/fondo.jpg");
    background-repeat: no-repeat;
-   width: 100% 
+   background-attachment: fixed;
 }
 
 .color-fondo{
     background-color: rgb(229, 232, 240);
     margin: 5px;
-    opacity: 0.8
+    opacity: 0.9
 }
 
 .contenedor-img{
     margin-bottom: 5px;
+}
+
+.contenedor-entradas{
+    max-height: 120vh;
+}
+
+.comentarios{
+    display: flex
 }
