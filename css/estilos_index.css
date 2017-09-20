@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+.img-logo{
+    width: 50%;
+    margin: 10px;
+}
+
+.img-redes{
+    width: 5%;
+    height: 20px;
+    float: right;
+    margin: 5px;
+}
+
+.contenedor-principal{
+    background-color: #386F94
+}
+
+.navegador{
+    margin: 5px 0;
+}
+
+.img-banda{
+    float: right;
+    width: 20%;
+    display: inline
+}
+
+.img-banda2{
+    float: left;
+    width: 20%;
+    display: inline
+}
+
+
+
+.img-comentario{
+    width: 60%;
+}
