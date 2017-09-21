@@ -16,12 +16,10 @@
     margin: 5px;
 }
 
-.contenedor-principal{
-    background-color: #386F94
-}
+
 
 .contenedor-navegador{
-    background-color: #595656;
+    background-color: #D6A541;
     text-align: center
 }
 
@@ -44,21 +42,17 @@
 .img-banda{
     float: right;
     width: 20%;
-    display: inline
+    display: inline;
+    margin: 5px
 }
 
 .img-banda2{
     float: left;
     width: 20%;
-    display: inline
+    display: inline;
+    margin: 5px
 }
-
-
 
 .img-comentario{
-    width: 60%;
-}
-
-.list-group{
-    margin-top: 50px;
+    width: 50px;
 }
