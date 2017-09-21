@@ -2,6 +2,8 @@
     box-sizing: border-box;
 }
 
+
+
 .img-logo{
     width: 50%;
     margin: 10px;
@@ -16,6 +18,23 @@
 
 .contenedor-principal{
     background-color: #386F94
+}
+
+.contenedor-navegador{
+    background-color: #595656;
+    text-align: center
+}
+
+.contenido-izquierdo{
+    background-color: #8E8787;
+    margin: 5px;
+    padding: 5px;
+}
+
+.contenido-derecho{
+    background-color: #8E8787;
+    margin: 5px;
+    padding: 5px;
 }
 
 .navegador{
@@ -38,4 +57,8 @@
 
 .img-comentario{
     width: 60%;
+}
+
+.list-group{
+    margin-top: 50px;
 }

@@ -12,10 +12,9 @@
 
 <body>
 
-  <div class="container">
     <!--Encabezado-->
     <header>
-      <div class="row contenedor-principal page-header">
+      <div class="row contenedor-principal ">
         <div class="col-lg-4 col-md-4 col-sm-4 ">
           <img src="img/blogger.png" alt="" class="img-logo img-circle">
         </div>
@@ -30,8 +29,7 @@
     </header>
 
     <!--Navegador-->
-    <div class="container">
-      <div class="row">
+      <div class="row contenedor-navegador">
         <div class="col-lg-12 navegador">
           <div class="row">
             <div class="col-lg-2">
@@ -56,13 +54,11 @@
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="container">
-      <!--Contenedor izquierdo-->
       <div class="row">
+        <!--Contenedor izquierdo-->
         <div class="col-lg-8">
-          <div class="row">
+          <div class="row contenido-izquierdo">
             <div class="col-lg-12">
               <h1>Tributo a The Beatles</h1><img src="img/musica/metallica.jpg" alt="" class="img-thumbnail img-banda">
               <p class="text-justify">Metallica es una banda de heavy metal estadounidense originaria de Los Ángeles, pero con base en San Francisco
@@ -82,16 +78,12 @@
                 Music Awards) y dos premios de la revista Billboard, además de poseer una estrella en el Paseo de la Fama
                 de la revista Kerrang!.</p>
             </div>
-          </div>
-          <div class="row">
             <div class="col-lg-2">
               <img src="img/hombre.jpg" alt="" class="img-comentario">
             </div>
             <div class="col-lg-10">
               <textarea name="comentario" id="comentario" class="form-control"></textarea>
             </div>
-          </div>
-          <div class="row">
             <div class="col-lg-12">
               <h1>Tributo a The Beatles</h1><img src="img/musica/guns.jpg" alt="" class="img-circle img-banda2">
               <p>La historia de los Guns N’ Roses, uno de los mejores grupos de la escena musical de los 80’ y la última gran
@@ -107,8 +99,6 @@
                 siempre parecían estar hostigándolo). Además, como tenía la cabellera mas larga del pueblo, los vecinos más
                 tradicionalistas no demoraron en tildarlo de gay.</p>
             </div>
-          </div>
-          <div class="row">
             <div class="col-lg-2">
               <img src="img/hombre.jpg" alt="" class="img-comentario">
             </div>
@@ -117,13 +107,35 @@
             </div>
           </div>
         </div>
-      </div>
-    </div>
 
-    <!--Contenedor derecho-->
-
-
-  </div>
+        
+        <!--Contenedor derecho-->
+        <div class="col-lg-4">
+          <div class="row contenido-derecho">
+            <div class="col-lg-12">
+                <form class="search-form">
+                  <div class="form-group has-feedback">
+                    <label for="search" class="sr-only">Buscador</label>
+                    <input type="text" class="form-control" name="search" id="search" placeholder="Buscador">
+                    <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                  </div>
+                </form>
+            </div>
+            
+            <div class="col lg-12">
+              <ul class="list-group list-unstyled">
+                <li><a href="#" class="list-group-item">Rock en español</a></li>
+                <li><a href="#" class="list-group-item">Reggaeton</a></li>
+                <li><a href="#" class="list-group-item">Lo mejor del vallenato</a></li>
+                <li><a href="#" class="list-group-item">Homenaje a Bob Marley</a></li>
+                <li><a href="#" class="list-group-item">Las 20 mejores canciones del Rock</a></li>
+                <li><a href="#" class="list-group-item">MTV Latinos</a></li>
+                <li><a href="#" class="list-group-item">Nuevo album de Doctor Krapula</a></li>  
+                <li><a href="#" class="list-group-item">La música para planchar</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
 
 
